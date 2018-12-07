@@ -1,0 +1,14 @@
+<h2>User Component List</h2>
+<h4>String from Outer component : "{{inputValue}}"</h4>
+<table>
+<tr>
+  <th>ID</th>
+  <th>Name</th>
+  <th>Location</th>
+</tr>
+<tr *ngFor="let user of userDetails" >
+  <td>{{user.id}}</td>
+  <td>{{user.name}}</td> 
+  <td>{{inputValue}}</td> 
+</tr>
+</table>
